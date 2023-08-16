@@ -23,15 +23,16 @@ const App = () =>{
   return(
     
   <div>
-    <NavBarComponent className="nav"/>
+    <NavBarComponent/>
 
+<div className="contador">
     <h1>Contador</h1>
           <h2>{count}</h2>
       <ButtonComponents label="incrementar" onClickFunction={incrementarCount}/>
       <br />
       <ButtonComponents label="decrementar" onClickFunction={decrementarCount}/>
       <br />
-
+</div>
 
   </div>
   )

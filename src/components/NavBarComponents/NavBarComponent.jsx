@@ -6,7 +6,7 @@ import CartWidget from '../CartWidget';
 
 const NavBarComponent = () => {
   return (
-    <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary" set data-bs-theme="dark">
+    <Navbar id="NavBar" collapseOnSelect expand="lg" className="bg-body-tertiary"  >
       <Container>
         <Navbar.Brand href="#home">Granja Supino</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -35,7 +35,7 @@ const NavBarComponent = () => {
         </Navbar.Collapse>
       </Container>
       <CartWidget/>
-      <p>0</p>
+      <p className="textCarro">0</p>
     </Navbar>
   );
 }

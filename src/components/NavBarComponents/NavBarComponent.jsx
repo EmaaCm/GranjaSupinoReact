@@ -6,7 +6,7 @@ import CartWidget from '../CartWidget';
 
 const NavBarComponent = () => {
   return (
-    <Navbar id="NavBar" collapseOnSelect expand="lg" className="bg-body-tertiary"  >
+    <Navbar id="NavBar" collapseOnSelect expand="lg" className="bg-body-tertiary" data-bs-theme="dark" >
       <Container>
         <Navbar.Brand href="#home">Granja Supino</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

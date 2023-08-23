@@ -5,6 +5,7 @@ import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ButtonComponents from './components/buttonComponents';
 import NavBarComponent from './components/NavBarComponents/NavBarComponent';
+import ItemListContainer from './components/ItemListContainer';
 
 
 
@@ -24,16 +25,10 @@ const App = () =>{
     
   <div>
     <NavBarComponent/>
-
-<div className="contador">
-    <h1>Contador</h1>
-          <h2>{count}</h2>
-      <ButtonComponents label="incrementar" onClickFunction={incrementarCount}/>
-      <br />
-      <ButtonComponents label="decrementar" onClickFunction={decrementarCount}/>
-      <br />
-</div>
-
+    <div>
+      <ItemListContainer greeting="Tienda en Mantenimiento..."/>
+      <ItemListContainer greeting="Pronto estaremos activos :) " />
+    </div>
   </div>
   )
 }

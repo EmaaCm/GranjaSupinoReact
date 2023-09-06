@@ -1,9 +1,8 @@
 import ItemListContainer from "../components/ItemListContainer";
+import ProductosData from "../Json/ProductData"
 
 const Home= ()=>{
-    return(
-        <ItemListContainer greeting="Bienvenidos a Granja Supino"/>
-    )
+<ItemListContainer ProductosData={ProductosData}/>
 }
 
 export default Home;

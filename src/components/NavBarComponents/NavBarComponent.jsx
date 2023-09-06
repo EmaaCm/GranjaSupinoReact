@@ -15,9 +15,9 @@ const NavBarComponent = () => {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link><Link to="/">Home</Link></Nav.Link>
-            <Nav.Link>Combos</Nav.Link>
-            <NavDropdown title="Nosotros" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">0</NavDropdown.Item>
+            <Nav.Link><Link to="/">Envios</Link></Nav.Link>
+            <NavDropdown title="Promociones" id="collasible-nav-dropdown">
+              <NavDropdown.Item><Link to="/Promociones/Cerdo">Cerdo</Link></NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 1
               </NavDropdown.Item>
@@ -27,6 +27,7 @@ const NavBarComponent = () => {
                 3
               </NavDropdown.Item>
             </NavDropdown>
+            <Nav.Link><Link to="/">Nosotros</Link></Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

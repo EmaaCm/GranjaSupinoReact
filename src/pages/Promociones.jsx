@@ -2,7 +2,7 @@ import React from 'react'
 
 const Promociones = () => {
   return (
-    <div>Promociones</div>
+    <div>Promociones proximas</div>
   )
 }
 

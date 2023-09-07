@@ -1,16 +1,17 @@
-import "./ItemListContainer.css";
+
 import React, {useState} from "react"
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import ProductosData from "../Json/ProductData";
+import "./ItemListContainer.css"
 
-const ItemListContainer = ({ProductosData}) =>{
+const ItemListContainer = ({productosData}) =>{
+    console.log("hola")
     return (
-        <div>
-            {ProductosData.map((item) =>{
+        <div id="galeria">
+            {productosData.map((item) =>{
                 return(
                     <Card style={{ width: '18rem' }} key={item.id}>
-                    <Card.Img variant="top" src="holder.js/100px180" />
+                    <Card.Img src={item.img} /> 
                     <Card.Body>
                       <Card.Title>{item.nombre}</Card.Title>
                       <Card.Text>
@@ -20,13 +21,9 @@ const ItemListContainer = ({ProductosData}) =>{
                       <Button variant="primary">Comprar</Button>
                     </Card.Body>
                   </Card>
-
                 )
             })}
-
-
         </div>
-
     )
 
 };

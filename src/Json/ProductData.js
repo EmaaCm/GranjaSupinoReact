@@ -6,7 +6,7 @@ const ProductosData=[
     precio:2500,
     stock:100,
     cantidad:1,
-    img:'galeria/matambre_de_cerdo.JPG'},
+    img:'../../src/galeria/matambre_de_cerdo.JPG'},
 
     {id:2,
     nombre:"Paleta de cerdo",
@@ -15,7 +15,7 @@ const ProductosData=[
     precio:2000,
     stock:100,
     cantidad:1,
-    img:'../galeria/paleta_de_cerdo.jpg'},
+    img:'../../src/galeria/paleta_de_cerdo.jpg'},
 
     {id:3,
     nombre:"Pechito de cerdo",
@@ -24,8 +24,7 @@ const ProductosData=[
     precio:2700,
     stock:100,
     cantidad:1,
-    img:'galeria/pechito_de_cerdo.jpg'},
-
+    img:'../../src/galeria/pechito_de_cerdo.jpg'},
 
     {id:4,
     nombre:"Asado americano",
@@ -34,7 +33,7 @@ const ProductosData=[
     precio:2100, 
     stock:100, 
     cantidad:1, 
-    img:'galeria/asado_americano.jpg'},
+    img:'../../src/galeria/asado_americano.jpg'},
 
     {id:5,
     nombre:"Ribs de cerdo", 
@@ -43,7 +42,7 @@ const ProductosData=[
     precio:2900, 
     stock:100, 
     cantidad:1, 
-    img:'galeria/ribs_de_cerdo.JPG'},
+    img:'../../src/galeria/ribs_de_cerdo.JPG'},
 
     {id:7,
     nombre:"Bondiola", 
@@ -52,7 +51,7 @@ const ProductosData=[
     precio:2500, 
     stock:100, 
     cantidad:1, 
-    img:'galeria/bondiola_cerdo.jpg'},
+    img:'../../src/galeria/bondiola_cerdo.jpg'},
 
     {id:8,
     nombre:"Solomillo", 
@@ -61,7 +60,7 @@ const ProductosData=[
     precio:2800, 
     stock:100, 
     cantidad:1, 
-    img:'galeria/solomillo.jpg'},
+    img:'../../src/galeria/solomillo.jpg'},
 
     {id:9,
     nombre:"Chorizos puro cerdo", 
@@ -70,8 +69,7 @@ const ProductosData=[
     precio:1700, 
     stock:100, 
     cantidad:1, 
-    img:'galeria/chorizo_de_cerdo.jpg'},
-
+    img:'../../src/galeria/chorizo_de_cerdo.jpg'},
 
     {id:10, 
     nombre:"Churrasquito", 
@@ -80,7 +78,8 @@ const ProductosData=[
     precio:2300, 
     stock:100, 
     cantidad:1, 
-    img:'galeria/churrasquito_de_cerdo.jpg'}
+    img:'../../src/galeria/churrasquito_de_cerdo.jpg'}
     ];
 
 export default ProductosData;
+

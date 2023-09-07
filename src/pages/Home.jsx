@@ -1,8 +1,10 @@
 import ItemListContainer from "../components/ItemListContainer";
-import ProductosData from "../Json/ProductData"
+import ProductosData from "../Json/ProductData.js"
 
 const Home= ()=>{
-<ItemListContainer ProductosData={ProductosData}/>
+    return (
+<ItemListContainer productosData={ProductosData}/>
+)
 }
 
 export default Home;

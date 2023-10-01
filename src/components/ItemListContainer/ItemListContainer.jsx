@@ -1,14 +1,12 @@
 import { useNavigate } from "react-router-dom";
-
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-
-import styles from "./ItemListContainer.module.css";
+import styles from "./ItemListContainer.module.scss"
 
 const ItemListContainer = ({ productsData }) => {
-  //useNavigate nos permite navegar entre rutas dentro de nuestra aplicación
-  const navigate = useNavigate();
 
+  const navigate = useNavigate();
+  
   return (
     <div className={styles.productContainer}>
       {productsData.map((product) => {

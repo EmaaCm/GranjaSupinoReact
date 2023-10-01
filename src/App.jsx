@@ -1,15 +1,13 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { MainRouter } from './routes/MainRouter';
 
-import MainLayout from "./layouts/MainLayout";
-import MainRouter from "./routes/MainRouter";
+function App() {
 
-import "bootstrap/dist/css/bootstrap.min.css";
-
-const App = () => {
   return (
-    <MainLayout>
+    <div>
       <MainRouter />
-    </MainLayout>
-  );
-};
+    </div>
+  )
+}
 
-export default App;
+export default App
